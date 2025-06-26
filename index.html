@@ -2,16 +2,690 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rajak Putuwar</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Rajak Putuwar's Portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
 </head>
 
-<body>
-    <div class="container">
-        <h1 class="title">Hello! This is Rajak Putuwar</h1>
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column justify-content-center">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="header-container d-flex flex-column align-items-start">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+          <!-- <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li> -->
+          <!-- <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="social-links text-center">
+        <a href="https://www.facebook.com/rajak.putuwar" class="facebook" target="_blank"><i
+            class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/rajak_putuwar/" class="instagram" target="_blank"><i
+            class="bi bi-instagram"></i></a>
+        <a href="https://github.com/rajakputuwar" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://np.linkedin.com/in/rajak-putuwar-134aa1268" target="_blank"><i class="bi bi-linkedin"></i></a>
+      </div>
+
     </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="background-elements">
+        <div class="bg-circle circle-1"></div>
+        <div class="bg-circle circle-2"></div>
+      </div>
+
+      <div class="hero-content">
+
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+              <div class="hero-text">
+                <h1>Rajak<span class="accent-text"> Putuwar</span></h1>
+                <!-- <h2>Alexander Chen</h2> -->
+                <p class="lead">I'm a <span class="typed" data-typed-items="Full Stack Developer"></span></p>
+                <p class="description">Passionate about creating exceptional digital experiences that blend innovative
+                  design with functional development. Let's bring your vision to life.</p>
+
+                <div class="hero-actions">
+                  <!-- <a href="#portfolio" class="btn btn-primary">View My Work</a> -->
+                  <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+
+                <div class="social-links">
+                  <a href="#"><i class="bi bi-dribbble"></i></a>
+                  <a href="https://github.com/rajakputuwar" target="_blank"><i class="bi bi-github"></i></a>
+                  <a href="https://np.linkedin.com/in/rajak-putuwar-134aa1268" target="_blank"><i
+                      class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="hero-visual">
+                <div class="profile-container">
+                  <div class="profile-background"></div>
+                  <img src="assets/img/profile/profile1.jpg" alt="Rajak Putuwar" class="profile-image">
+                  <div class="floating-elements">
+                    <div class="floating-icon icon-1"><i class="bi bi-palette"></i></div>
+                    <div class="floating-icon icon-2"><i class="bi bi-code-slash"></i></div>
+                    <div class="floating-icon icon-3"><i class="bi bi-lightbulb"></i></div>
+                    <div class="floating-icon icon-4"><i class="bi bi-graph-up"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="200">
+            <div class="profile-card">
+              <div class="profile-header">
+                <div class="profile-image">
+                  <img src="assets/img/profile/profile-square2.jpeg" alt="Profile Image" class="img-fluid">
+                </div>
+                <div class="profile-badge">
+                  <i class="bi bi-check-circle-fill"></i>
+                </div>
+              </div>
+
+              <div class="profile-content">
+                <h3>Rajak Putuwar</h3>
+                <p class="profession">Web Developer</p>
+
+                <div class="contact-links">
+                  <a href="mailto:rajakputuwar07@gmail.com" class="contact-item">
+                    <i class="bi bi-envelope"></i>
+                    rajakputuwar07@gmail.com
+                  </a>
+                  <!-- <a href="tel:+15551234567" class="contact-item">
+                    <i class="bi bi-telephone"></i>
+                    +1 (555) 123-4567
+                  </a> -->
+                  <a href="#" class="contact-item">
+                    <i class="bi bi-geo-alt"></i>
+                    Kathmandu, Nepal
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-content">
+              <div class="section-header">
+                <span class="badge-text">Get to Know Me</span>
+                <h2>Passionate About Creating Digital Experiences</h2>
+              </div>
+
+              <div class="description">
+                <p>I’m a passionate full-stack developer with hands-on experience in building modern web and mobile
+                  applications using Django, Laravel, React,and Vue.js. I specialize in creating robust
+                  APIs, clean user interfaces, and high-performance backend systems tailored for real-world needs.</p>
+
+                <p>I enjoy turning complex challenges into efficient and scalable digital solutions.
+                  Whether freelancing or collaborating with teams, I aim to write clean code and deliver impactful
+                  results.</p>
+              </div>
+
+              <div class="stats-grid">
+                <div class="stat-item">
+                  <div class="stat-number">5+</div>
+                  <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number">2+</div>
+                  <div class="stat-label">Years Experience</div>
+                </div>
+                <!-- <div class="stat-item">
+                  <div class="stat-number">98%</div>
+                  <div class="stat-label">Client Satisfaction</div>
+                </div> -->
+              </div>
+
+              <div class="details-grid">
+                <div class="detail-row">
+                  <div class="detail-item">
+                    <span class="detail-label">Specialization</span>
+                    <span class="detail-value">Web Development</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Experience Level</span>
+                    <span class="detail-value">Mid Professional</span>
+                  </div>
+                </div>
+                <div class="detail-row">
+                  <div class="detail-item">
+                    <span class="detail-label">Education</span>
+                    <span class="detail-value">BCA, TIC</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Languages</span>
+                    <span class="detail-value">English, Nepali</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cta-section">
+                <a href="#" class="btn btn-primary">
+                  <i class="bi bi-download"></i>
+                  Download Resume
+                </a>
+                <a href="#" class="btn btn-outline">
+                  <i class="bi bi-chat-dots"></i>
+                  Let's Talk
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Proficient in building full-stack applications with modern frontend frameworks and robust backend systems.
+          Skilled in developing scalable, responsive, and maintainable solutions tailored to real-world business needs.
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
+              <h3>Front-end Development</h3>
+              <div class="skills-animation">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>HTML/CSS</h4>
+                    <span class="skill-percentage">90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Expert level knowledge of semantic HTML5 and modern CSS3 techniques</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>JavaScript</h4>
+                    <span class="skill-percentage">80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Strong proficiency in ES6+, DOM manipulation, and modern frameworks</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>React</h4>
+                    <span class="skill-percentage">75%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Experience with React hooks, state management, and component architecture
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Vue</h4>
+                    <span class="skill-percentage">75%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Experience with Options API, Vue Router, and Vuex for
+                    centralized state management
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Frontend Skills -->
+          </div>
+
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="300">
+              <h3>Back-end Development</h3>
+              <div class="skills-animation">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Laravel</h4>
+                    <span class="skill-percentage">80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Experience with MVC architecture, Eloquent ORM, RESTful API
+                    development, and modular backend design with middleware</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Python</h4>
+                    <span class="skill-percentage">75%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Experience integrating Django REST Framework with modern frontend
+                    frameworks like React/Vue for full-stack application development</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>SQL</h4>
+                    <span class="skill-percentage">75%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Database design, optimization, and complex queries</div>
+                </div>
+              </div>
+            </div><!-- End Backend Skills -->
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>
+          A results-driven full-stack developer with experience in building dynamic web and mobile applications using
+          Django, Laravel, React, and Vue.js. Proven ability to deliver scalable solutions, implement robust
+          APIs, and streamline development workflows through modern tools and best practices.
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <!-- Left column with summary and contact -->
+          <div class="col-lg-4">
+            <div class="resume-side" data-aos="fade-right" data-aos-delay="100">
+              <div class="profile-img mb-4">
+                <img src="assets/img/profile/profile-square1.jpeg" alt="Profile" class="img-fluid rounded">
+              </div>
+
+              <h3>Professional Summary</h3>
+              <p>
+                Full-stack developer with hands-on experience in building scalable web and mobile applications using
+                Django, Laravel, React, Vue.js, and React Native. Proficient in REST API development, state management,
+                and modular architecture across frontend and backend ecosystems.
+              </p>
+
+              <h3 class="mt-4">Contact Information</h3>
+              <ul class="contact-info list-unstyled">
+                <li><i class="bi bi-geo-alt"></i> Kathmandu, Nepal</li>
+                <li><i class="bi bi-envelope"></i> rajakputuwar07@gmail.com</li>
+                <li><i class="bi bi-phone"></i> +977 98########li>
+              </ul>
+
+              <div class="skills-animation mt-4">
+                <h3>Technical Skills</h3>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>Full-Stack Web Development (Django, Laravel)</span>
+                    <span>85%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>Frontend Development (React, Vue.js)</span>
+                    <span>75%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>API Development (DRF, Laravel API Resources)</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>DevOps & CI/CD (GitHub Actions, Apache, WSL2)</span>
+                    <span>50%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right column with experience and education -->
+          <div class="col-lg-8 ps-4 ps-lg-5">
+            <!-- Experience Section -->
+            <div class="resume-section" data-aos="fade-up">
+              <h3><i class="bi bi-briefcase me-2"></i>Professional Experience</h3>
+
+              <div class="resume-item">
+                <h4>Full-Stack Developer</h4>
+                <h5>2024 - Present</h5>
+                <p class="company"><i class="bi bi-building"></i> Upveda Technoloy</p>
+                <ul>
+                  <li>Developed full-stack web and mobile apps using Django REST Framework, Laravel, React, and Vue.js
+                  </li>
+                  <li>Integrated third-party services like Google Sheets API, and OpenStreetMap
+                  </li>
+                  <li>Optimized backend performance with efficient querysets, custom serializers, and caching strategies
+                  </li>
+                  <li>Set up CI/CD pipelines using GitHub Actions and handled secure deployments on Ubuntu servers via
+                    Apache</li>
+                </ul>
+              </div>
+
+              <div class="resume-item">
+                <h4>Web Developer Intern / Junior Developer</h4>
+                <h5>2022 - 2024</h5>
+                <p class="company"><i class="bi bi-building"></i> Upveda Technoloy / College Projects</p>
+                <ul>
+                  <li>Built modular CRUD applications with Laravel and Vue.js, following RESTful architecture</li>
+                  <li>Designed and implemented dynamic forms and reporting tools for internal dashboards</li>
+                  <li>Collaborated using Git, handled API integration, and implemented JWT-based authentication</li>
+                  <li>Worked on a vegetable market price tracker with predictive logic based on demand, supply, and
+                    weather</li>
+                  <li>Worked on a library management system with CRUD operations and user authentication</li>
+                </ul>
+              </div>
+
+
+              <!-- Education Section -->
+              <div class="resume-section" data-aos="fade-up" data-aos-delay="100">
+                <h3><i class="bi bi-mortarboard me-2"></i>Education</h3>
+
+                <div class="resume-item">
+                  <h4>Bachelors of Computer Application</h4>
+                  <h5>2021 to Present</h5>
+                  <p class="company"><i class="bi bi-building"></i> Texas International College</p>
+                  <p>Running</p>
+                </div>
+
+                <div class="resume-item">
+                  <h4>+2</h4>
+                  <h5>2019 - 2020</h5>
+                  <p class="company"><i class="bi bi-building"></i> KIST</p>
+                  <p>Completed with CGPA of 3.08.</p>
+                </div>
+
+                <div class="resume-item">
+                  <h4>SEE</h4>
+                  <h5>2018</h5>
+                  <p class="company"><i class="bi bi-building"></i> Shree Bajrayoginee Secondary English School</p>
+                  <p>Completed with GPA of 3.65.</p>
+                </div>
+              </div>
+
+              <!-- Certifications Section -->
+              <!-- <div class="resume-section" data-aos="fade-up" data-aos-delay="200">
+                <h3><i class="bi bi-award me-2"></i>Certifications</h3>
+
+                <div class="resume-item">
+                  <h4>AWS Certified Solutions Architect - Professional</h4>
+                  <h5>2023</h5>
+                </div>
+
+                <div class="resume-item">
+                  <h4>Google Cloud Professional Architect</h4>
+                  <h5>2022</h5>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+        </div>
+
+    </section><!-- /Resume Section -->
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>
+          Feel free to reach out for collaborations, project inquiries, or just to say hello. I’m always open to
+          discussing new opportunities and challenges.
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box">
+              <h3>Contact Info</h3>
+              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.
+              </p>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="content">
+                  <h4>Location</h4>
+                  <p>Kathmandu, Nepal</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>Phone Number</h4>
+                  <p>+977 98########</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Email Address</h4>
+                  <p>rajakputuwar07@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form">
+              <h3>Get In Touch</h3>
+              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.
+              </p>
+
+              <form action="forms/contact.php" method="post" class="php-email-form">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <span id="current-year"></span><strong class="px-1 sitename">Rajak Putuwar.</strong>
+          <span>All Rights
+            Reserved</span>
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script>
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
