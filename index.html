@@ -185,7 +185,7 @@
                   <div class="stat-label">Projects Completed</div>
                 </div>
                 <div class="stat-item">
-                  <div class="stat-number-years">2+</div>
+                  <div class="stat-number" id="exp-year">2+</div>
                   <div class="stat-label">Years Experience</div>
                 </div>
                 <!-- <div class="stat-item">
@@ -805,7 +805,7 @@
       const currentDate = new Date();
       const years = Math.floor((currentDate - startDate) / (1000 * 60 * 60 * 24 * 365.25));
   
-      document.querySelector('.stat-number-years').textContent = years >= 1 ? `${years}+` : '<1';
+      document.querySelector('#exp-year').textContent = years >= 1 ? `${years}+` : '<1';
     });
   </script>
 
