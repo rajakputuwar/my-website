@@ -800,6 +800,13 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script>
     document.getElementById("current-year").textContent = new Date().getFullYear();
+    document.addEventListener('DOMContentLoaded', function() {
+      const startDate = new Date('2022-01-01');
+      const currentDate = new Date();
+      const years = Math.floor((currentDate - startDate) / (1000 * 60 * 60 * 24 * 365.25));
+  
+      document.querySelector('.stat-number').textContent = years >= 1 ? `${years}+` : '<1';
+    });
   </script>
 
   <!-- Main JS File -->
