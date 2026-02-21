@@ -10,6 +10,22 @@
   <meta name="keywords"
     content="Rajak Putuwar, Full Stack Developer, Django Developer Nepal, Laravel Developer, React Developer, Vue Developer, Web Developer Kathmandu">
   <meta name="author" content="Rajak Putuwar">
+
+  <meta property="og:title" content="Rajak Putuwar | Full Stack Developer">
+  <meta property="og:description"
+    content="Portfolio of Rajak Putuwar, a full stack developer from Nepal with expertise in Django, Laravel, React, and Vue.">
+  <meta property="og:image" content="https://rajakputuwar.com.np/assets/img/profile/profile1.webp">
+  <meta property="og:url" content="https://rajakputuwar.com.np/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rajak Putuwar | Full Stack Developer">
+  <meta name="twitter:description" content="Portfolio of Rajak Putuwar, a full stack developer from Nepal.">
+  <meta name="twitter:image" content="https://rajakputuwar.com.np/assets/img/profile/profile1.webp">
+  <meta name="google-site-verification" content="EGFBfqdK19HZk89ferTeD2pGwkpiPlrUgLcmhrIC7FI" />
+
+  <link rel="canonical" href="https://rajakputuwar.com.np/">
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.webp" rel="apple-touch-icon">
@@ -30,8 +46,28 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-  <meta name="google-site-verification" content="7ibP1tfPDQ22z74iyurYyqZiLgjs5v2c9nezdBPCn1s" />
-
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Rajak Putuwar",
+      "url": "https://rajakputuwar.com.np",
+      "email": "rajakputuwar07@gmail.com",
+      "jobTitle": "Full Stack Developer",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kathmandu",
+        "addressCountry": "NP"
+      },
+      "sameAs": [
+        "https://github.com/rajakputuwar",
+        "https://np.linkedin.com/in/rajak-putuwar-134aa1268",
+        "https://www.facebook.com/rajak.putuwar",
+        "https://www.instagram.com/rajak_putuwar/"
+      ],
+      "knowsAbout": ["Django", "Laravel", "React", "Vue.js", "Full Stack Development"]
+    }
+</script>
 
 </head>
 
@@ -43,7 +79,7 @@
     <div class="header-container d-flex flex-column align-items-start">
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+          <li><a href="#" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
           <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
           <li><a href="#skills"><i class="bi bi-tools navicon"></i> Skills</a></li>
           <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
@@ -94,7 +130,6 @@
                 </div>
 
                 <div class="social-links">
-                  <a href="#"><i class="bi bi-dribbble"></i></a>
                   <a href="https://github.com/rajakputuwar" target="_blank"><i class="bi bi-github"></i></a>
                   <a href="https://np.linkedin.com/in/rajak-putuwar-134aa1268" target="_blank"><i
                       class="bi bi-linkedin"></i></a>
@@ -133,7 +168,8 @@
             <div class="profile-card">
               <div class="profile-header">
                 <div class="profile-image">
-                  <img src="assets/img/profile/profile-square2.webp" alt="Profile Image" class="img-fluid">
+                  <img src="assets/img/profile/profile-square2.webp" alt="Rajak Putuwar - Full Stack Developer"
+                    class="img-fluid">
                 </div>
                 <div class="profile-badge">
                   <i class="bi bi-check-circle-fill"></i>
@@ -800,11 +836,11 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script>
     document.getElementById("current-year").textContent = new Date().getFullYear();
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       const startDate = new Date('2022-01-01');
       const currentDate = new Date();
       const years = Math.floor((currentDate - startDate) / (1000 * 60 * 60 * 24 * 365.25));
-  
+
       document.querySelector('#exp-year').textContent = years >= 1 ? `${years}+` : '<1';
     });
   </script>
