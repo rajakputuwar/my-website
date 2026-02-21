@@ -46,6 +46,13 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Simple Message Fade -->
+  <style>
+    #form-status {
+      transition: opacity 0.5s ease;
+    }
+  </style>
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -891,12 +898,18 @@
         document.getElementById('contact-form').reset();
         btn.disabled = false;
         btn.textContent = 'Send Message';
+        setTimeout(() => {
+          status.style.opacity = '0';
+        }, 3000);
       }, function (error) {
         status.style.color = '#dc3545';
         status.textContent = 'Something went wrong. Please try again or email me directly.';
         console.error('EmailJS error:', error);
         btn.disabled = false;
         btn.textContent = 'Send Message';
+        setTimeout(() => {
+          status.style.opacity = '0';
+        }, 3000);
       });
     });
   </script>
